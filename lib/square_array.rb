@@ -1,3 +1,5 @@
+=begin
+
 def square_array(array)
   new_array = []
   count = 0
@@ -7,3 +9,14 @@ def square_array(array)
   end
   return new_array
 end
+
+=end
+
+# The higher Iterator Method
+
+new_array = []
+
+array.length.times do |index|
+  new_array.push(array[index]**2)
+end
+return new_array
