@@ -1,5 +1,6 @@
-=begin
+# The Lower Iterator Method
 
+=begin
 def square_array(array)
   new_array = []
   count = 0
@@ -11,6 +12,7 @@ def square_array(array)
 end
 
 =end
+
 
 # The higher Iterator Method
 
